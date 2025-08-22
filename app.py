@@ -11,8 +11,7 @@ def print_exception(e):
     st.error("Error occurred ⚠️")
     st.code("".join(traceback.format_exception(*sys.exc_info())))
 
-st.title("Hello Streamlit — test")
-st.write("If you see this, Streamlit works.")
+
 
 
 
@@ -38,7 +37,7 @@ with open('ohe_encoder_geo.pkl','rb')as file:
 st.title('Customer churn prediction')
 import traceback
 
-st.title('Customer churn prediction')
+
 
 try:
     # User input
@@ -92,3 +91,4 @@ try:
 except Exception as e:
     st.error("Something went wrong ⚠️")
     st.code(traceback.format_exc())
+
